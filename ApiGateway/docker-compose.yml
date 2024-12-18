@@ -8,5 +8,5 @@ api-gateway:
       - orderserviceapi
       - userserviceapi
     environment:
-      ASPNETCORE_URLS: "http://+:8000"
+      ASPNETCORE_URLS: "production"
     pull_policy: always
