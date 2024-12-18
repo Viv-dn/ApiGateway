@@ -2,8 +2,6 @@ api-gateway:
   build:
     context: ./ApiGateway
   container_name: api-gateway
-    ports:
-      - "8000:8000"
     depends_on:
       - billingserviceapi
       - bookserviceapi
